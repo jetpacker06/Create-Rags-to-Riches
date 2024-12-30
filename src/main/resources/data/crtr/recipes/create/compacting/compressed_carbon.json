@@ -1,0 +1,58 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    },
+    {
+      "item": "crtr:briquette"
+    }
+  ],
+  "results": [
+    {
+      "item": "crtr:compressed_carbon"
+    }
+  ]
+}

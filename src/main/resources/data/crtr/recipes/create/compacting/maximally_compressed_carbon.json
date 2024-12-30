@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "crtr:supercompressed_carbon"
+    },
+    {
+      "item": "crtr:supercompressed_carbon"
+    },
+    {
+      "item": "crtr:supercompressed_carbon"
+    },
+    {
+      "item": "crtr:supercompressed_carbon"
+    }
+  ],
+  "results": [
+    {
+      "item": "crtr:maximally_compressed_carbon"
+    }
+  ]
+}

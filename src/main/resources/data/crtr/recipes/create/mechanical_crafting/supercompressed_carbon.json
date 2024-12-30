@@ -1,0 +1,18 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "CCCCCCCC",
+    "CCCCCCCC",
+    "CCCCCCCC",
+    "CCCCCCCC"
+  ],
+  "key": {
+    "C": {
+      "item": "crtr:compressed_carbon"
+    }
+  },
+  "result": {
+    "item": "crtr:supercompressed_carbon"
+  },
+  "acceptMirrored": false
+}

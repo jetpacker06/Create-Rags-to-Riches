@@ -1,5 +1,6 @@
 package com.jetpacker06.createragstoriches;
 
+import com.simibubi.create.AllCreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +15,7 @@ public class RTRItems {
         ITEMS.register(eventBus);
     }
 
-    private static final Supplier<Item> BASIC = () -> new Item(new Item.Properties());
+    private static final Supplier<Item> BASIC = () -> new Item(new Item.Properties().tab(AllCreativeModeTabs.BASE_CREATIVE_TAB));
 
     public static final RegistryObject<Item> WOOD_CHUNKS = ITEMS.register("wood_chunks", BASIC);
     public static final RegistryObject<Item> BRIQUETTE = ITEMS.register("briquette", BASIC);

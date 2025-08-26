@@ -1,5 +1,8 @@
 package com.jetpacker06.createragstoriches;
 
+import com.jetpacker06.createragstoriches.register.RTRFluids;
+import com.jetpacker06.createragstoriches.register.RTRItems;
+import com.jetpacker06.createragstoriches.register.Tab;
 import com.simibubi.create.AllCreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -11,11 +14,12 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModEvents {
     @SubscribeEvent
     public static void onCreativeModeTabBuildEvent(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTab() != AllCreativeModeTabs.BASE_CREATIVE_TAB.get()) return;
+        if (event.getTab() != Tab.CRTR.get()) return;
         System.out.println(event.getTab().getDisplayName().getString());
         for (RegistryObject<Item> item : RTRItems.ITEMS.getEntries()) {
             if (item.get() == RTRItems.UNPROCESSED_MAXIMALLY_COMPRESSED_CARBON.get()) continue;
             event.accept(item.get());
         }
+       // event.accept(RTRFluids.MOLTEN_NETHERITE_BUCKET.get());
     }
 }

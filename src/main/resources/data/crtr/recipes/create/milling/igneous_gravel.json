@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "crtr:igneous_gravel"
+    }
+  ],
+  "processingTime": 200
+}

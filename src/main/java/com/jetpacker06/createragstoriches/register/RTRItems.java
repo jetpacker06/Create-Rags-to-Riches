@@ -1,5 +1,6 @@
-package com.jetpacker06.createragstoriches;
+package com.jetpacker06.createragstoriches.register;
 
+import com.jetpacker06.createragstoriches.CreateRTR;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,6 +24,7 @@ public class RTRItems {
     public static final RegistryObject<Item> MAXIMALLY_COMPRESSED_CARBON = ITEMS.register("maximally_compressed_carbon", BASIC);
     public static final RegistryObject<Item> UNPROCESSED_MAXIMALLY_COMPRESSED_CARBON = ITEMS.register("unprocessed_maximally_compressed_carbon", BASIC);
     public static final RegistryObject<Item> ROUGH_DIAMOND = ITEMS.register("rough_diamond", BASIC);
-
     public static final RegistryObject<Item> POWDERED_COAL = ITEMS.register("powdered_coal", BASIC);
+
+    public static final RegistryObject<Item> NETHERITE_DUST = ITEMS.register("netherite_dust", BASIC);
 }

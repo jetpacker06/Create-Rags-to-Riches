@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "crtr:netherite_dust"
+    },
+    {
+      "item": "crtr:netherite_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "crtr:molten_netherite",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "superheated"
+}

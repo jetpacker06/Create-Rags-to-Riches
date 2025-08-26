@@ -1,4 +1,6 @@
 {
+  "tab.crtr.crtr": "Create: Rags to Riches",
+
   "item.crtr.wood_chunks": "Wood Chunks",
   "item.crtr.briquette": "Briquette",
   "item.crtr.compressed_carbon": "Compressed Carbon",
@@ -6,5 +8,11 @@
   "item.crtr.maximally_compressed_carbon": "Maximally Compressed Carbon",
   "item.crtr.unprocessed_maximally_compressed_carbon": "Unprocessed Maximally Compressed Carbon",
   "item.crtr.rough_diamond": "Rough Diamond",
-  "item.crtr.powdered_coal": "Powdered Coal"
+  "item.crtr.powdered_coal": "Powdered Coal",
+
+  "block.crtr.crimson_cane": "Crimson Cane",
+  "block.crtr.igneous_gravel": "Igneous Gravel",
+  "item.crtr.molten_netherite_bucket": "Molten Netherite Bucket",
+  "item.crtr.netherite_dust": "Netherite Dust",
+  "fluid.crtr.molten_netherite": "Molten Netherite"
 }
